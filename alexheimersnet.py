@@ -68,7 +68,7 @@ def one_hot_label(image, label):
 train_ds = train_ds.map(one_hot_label, num_parallel_calls=AUTOTUNE)
 val_ds = val_ds.map(one_hot_label, num_parallel_calls=AUTOTUNE)
 
-##makes images more calling images more efficient - but how?
+##makes images more calling images more efficient - 
 train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
 
@@ -145,7 +145,6 @@ exponential_decay_fn = exponential_decay(0.01, 20)
 
 lr_scheduler = tf.keras.callbacks.LearningRateScheduler(exponential_decay_fn)
 
-##why are we calling back h5
 
 checkpoint_cb = tf.keras.callbacks.ModelCheckpoint("alzheimer_model.h5",
                                                     save_best_only=True)
@@ -176,7 +175,7 @@ for i, met in enumerate(['auc', 'loss']):
     ax[i].legend(['train', 'val'])
 
 
-## evaluation on testing dataset - need to fix directory
+## evaluation on testing dataset 
 
 test_ds = tf.keras.preprocessing.image_dataset_from_directory(
     "/Users/danaesakelliadou/Alzheimer_s/test",
