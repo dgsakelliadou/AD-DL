@@ -18,6 +18,14 @@ Once you download it, there are 4 points throughout the code, where the file dir
  
  4.<img width="447" alt="Screenshot 2021-08-13 at 8 39 59 PM" src="https://user-images.githubusercontent.com/88878812/129433017-4da21e9e-ac8d-4180-bc2e-ef7b70f93214.png">
 
+## 2.Basic structure
+We have created 2 CNNs that output a classification result based on 4 dementia states: Non-Demented, Very Mild Demented, Mild Demented, Moderate Demented.
+Our goal was to use 2 different structures of RNN (one custom and one with Transfer Learning on AlexNet) and compare them to see, which one would give us the prediction with the highest accuracy based on the .jpg images from Kaggle Dataset.
+
+##3.To run the code:
+Update the directories and run both Alexheimer'snet.py and ADCustomCNN.net to see how they perform.
+
+
 
 
 
