@@ -23,7 +23,7 @@ We have created 2 CNNs that output a classification result based on 4 dementia s
 Our goal was to use 2 different structures of RNN (one custom and one with Transfer Learning on AlexNet) and compare them to see, which one would give us the prediction with the highest accuracy based on the .jpg images from Kaggle Dataset.
 
 ## 3.To run the code:
-Update the directories and run both Alexheimer'snet.py and ADCustomCNN.net to see how they perform.
+Update the directories and run both Alexheimer'snet.py and ADCustomCNN.py to see how they perform.
 
 
 
