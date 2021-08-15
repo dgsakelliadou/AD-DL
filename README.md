@@ -6,7 +6,7 @@ A Deep Learning framework for predicting the risk of developing Alzheimer's Deme
 
 The Kaggle dataset of MRI images used as input for this project can be found here: 
 https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images
-Once you download it, there are 4 points throughout the code, where the file directory needs to be updated based on where you saved the file.
+Once you download it, there are 4 points throughout the 2 .ipynb and/or .py files (whichever you choose to run), where the file directory needs to be updated based on where you saved the file.
    
  1.<img width="443" alt="Screenshot 2021-08-13 at 8 45 31 PM" src="https://user-images.githubusercontent.com/88878812/129433122-c089f826-1a52-4aaf-845e-5682fb497ea5.png">
 
