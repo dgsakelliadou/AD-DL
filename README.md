@@ -20,15 +20,15 @@ Once you download it, there are 4 points throughout the code, where the file dir
  
  In the same directory as the .ipynb and .py files, please set your directory up as so:
  
- Alzheimer_s Dataset/
+ 	Alzheimer_s Dataset/
  
-    train/
+    		train/
 	 
-        /classes
+        		/classes
 		  
-    test/
+    		test/
 	 
-       /classes
+       			/classes
 
 ## 2.Basic structure
 We have created 2 CNNs that output a classification result based on 4 dementia states: Non-Demented, Very Mild Demented, Mild Demented, Moderate Demented.
