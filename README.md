@@ -19,10 +19,15 @@ Once you download it, there are 4 points throughout the code, where the file dir
  4.<img width="447" alt="Screenshot 2021-08-13 at 8 39 59 PM" src="https://user-images.githubusercontent.com/88878812/129433017-4da21e9e-ac8d-4180-bc2e-ef7b70f93214.png">
  
  In the same directory as the .ipynb and .py files, please set your directory up as so:
+ 
  Alzheimer_s Dataset/
+ 
     train/
+	 
         /classes
+		  
     test/
+	 
        /classes
 
 ## 2.Basic structure
