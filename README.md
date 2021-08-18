@@ -32,7 +32,7 @@ Once you download it, there are 4 points throughout the 2 .ipynb and/or .py file
 
 ## 2.Basic structure
 We have created 2 CNNs that output a classification result based on 4 dementia states: Non-Demented, Very Mild Demented, Mild Demented, Moderate Demented.
-Our goal was to use 2 different structures of RNN (one custom and one with Transfer Learning on AlexNet) and compare them to see, which one would give us the prediction with the highest accuracy based on the .jpg images from Kaggle Dataset.
+Our goal was to use 2 different structures of CNN (one custom and one with Transfer Learning on AlexNet) and compare them to see, which one would give us the prediction with the highest accuracy based on the .jpg images from Kaggle Dataset.
 
 ## 3.To run the code:
 Update the directories and run both nn_alexzheimernet.py and nn_customCNN.ipyb to see the epochs AND the graphs. For just the epochs and no graphs, run the nn.py for the custom CNN and alexzheimers_net.py for the AlexNet model. 
